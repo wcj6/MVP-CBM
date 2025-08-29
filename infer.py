@@ -540,12 +540,8 @@ if __name__ == '__main__':
     concept_list = concept_dict[config.dataset]
 
 
-    
-    # from concept_dataset import explicid_isic_dict
-    # concept_list = explicid_isic_dict
-    # net = ExpLICD(concept_list=concept_list, model_name='biomedclip', config=config)
 
-    net = prototype(concept_list=concept_list, model_name='biomedclip', config=config)
+    net = mvpcbm(concept_list=concept_list, model_name='biomedclip', config=config)
 
    
     # We find using orig_in21k vit weights works better than biomedclip vit weights
