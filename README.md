@@ -53,12 +53,21 @@ The queried diagnostic criteria and concepts from GPT-o1 are in `train_mvpcbm.py
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{wang2025mvp,
-  title={MVP-CBM: Multi-layer Visual Preference-enhanced Concept Bottleneck Model for Explainable Medical Image Classification},
-  author={Wang, Chunjiang and Zhang, Kun and Liu, Yandong and He, Zhiyang and Tao, Xiaodong and Zhou, S Kevin},
-  journal={arXiv preprint arXiv:2506.12568},
-  year={2025}
+@inproceedings{ijcai2025p60,
+  title     = {MVP-CBM: Multi-layer Visual Preference-enhanced Concept Bottleneck Model for Explainable Medical Image Classification},
+  author    = {Wang, Chunjiang and Zhang, Kun and Liu, Yandong and He, Zhiyang and Tao, Xiaodong and Zhou, S. Kevin},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {529--537},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/60},
+  url       = {https://doi.org/10.24963/ijcai.2025/60},
 }
+
 ```
 ## Acknowledgements
 
